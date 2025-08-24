@@ -620,3 +620,19 @@ i = 1
 while i < 6:
     print(i)
     i += 1
+
+
+// ==================== Python Functions ==================== //
+
+< -------------------- Function ---------------------- >
+
+def my_function():
+    print("Hello from a function")
+
+my_function() // This will print "Hello from a function" in the console
+
+
+det my_name(name):
+    print("Hello " + name)
+
+my_name("John") // This will print "Hello John" in the console
