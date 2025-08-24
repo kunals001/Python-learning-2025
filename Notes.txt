@@ -603,5 +603,20 @@ match x:
         print("x is not 5 or 6") 
 
 
+// ==================== Python Loops ==================== //
+
+< -------------------- For loop ---------------------- >
+
+fruits = ["apple", "banana", "cherry"]
+
+for x in fruits:
+    print(x) // This will print "apple", "banana", "cherry" in the console
 
 
+< -------------------- While loop ---------------------- >
+
+i = 1
+
+while i < 6:
+    print(i)
+    i += 1
