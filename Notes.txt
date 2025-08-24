@@ -636,3 +636,9 @@ det my_name(name):
     print("Hello " + name)
 
 my_name("John") // This will print "Hello John" in the console
+
+< -------------------- Lambda ---------------------- >
+
+x = lambda a : a + 10
+
+print(x(5)) // This will print 15 in the console
