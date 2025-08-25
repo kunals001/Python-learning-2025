@@ -770,3 +770,41 @@ plane1 = Plane("Boeing", "747")     #Create a Plane object
 
 for x in (car1, boat1, plane1):
   x.move()
+
+
+// ==================== Python File Handling ==================== //
+
+
+< -------------------- Open a File ---------------------- >
+
+f = open("demofile.txt", "r")
+print(f.read()) // This will print the content of the file in the console
+
+
+< -------------------- Write to a File ---------------------- >
+
+f = open("demofile2.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+
+f = open("demofile2.txt", "r")
+print(f.read()) // This will print "Now the file has more content!" in the console
+
+
+< -------------------- Delete a File ---------------------- >
+
+import os
+os.remove("demofile.txt")
+
+
+< -------------------- Rename a File ---------------------- >
+
+import os
+os.rename("demofile2.txt", "demofile.txt")
+
+
+< -------------------- Delete a Folder ---------------------- >
+
+import shutil
+shutil.rmtree("myfolder")
+
